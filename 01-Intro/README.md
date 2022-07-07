@@ -1,4 +1,30 @@
-# Engenharia de Software em Machine Learning
+<h1>Engenharia de Software em Machine Learning</h1>
+
+
+- [Introdução](#introdução)
+  - [Computação em nuvem](#computação-em-nuvem)
+  - [APIs](#apis)
+- [Princípios de Engenharia de Software](#princípios-de-engenharia-de-software)
+- [Modelos de Processo de software](#modelos-de-processo-de-software)
+- [Metodologia genérica](#metodologia-genérica)
+  - [Modelos de Maturidade](#modelos-de-maturidade)
+  - [Metodologias de desenvolvimento](#metodologias-de-desenvolvimento)
+  - [Padrões de Processo](#padrões-de-processo)
+- [Estudo de caso](#estudo-de-caso)
+- [Desenvolvimento Ágil](#desenvolvimento-ágil)
+  - [Extreme Programming (XP)](#extreme-programming-xp)
+- [Testes que dever ser realizados com modelos de machine learning](#testes-que-dever-ser-realizados-com-modelos-de-machine-learning)
+- [Modelagem de Software](#modelagem-de-software)
+  - [Princípios de Comunicação](#princípios-de-comunicação)
+  - [Princípios de Planejamento (definição)](#princípios-de-planejamento-definição)
+  - [Princípios de Modelagem (mapa da mina)](#princípios-de-modelagem-mapa-da-mina)
+  - [Princípios de Desenvolvimento](#princípios-de-desenvolvimento)
+- [Engenharia de Requisitos](#engenharia-de-requisitos)
+  - [Levantamento de requisitos](#levantamento-de-requisitos)
+- [Para saber mais](#para-saber-mais)
+- [Crédito das imagens](#crédito-das-imagens)
+
+
 
 ## Introdução
 
@@ -251,13 +277,84 @@ Desenvolvimento Ágil é um modelo de processo de software, e dentre as diversas
 - Antes de se comunicar, tenha certeza do que compreendeu o ponto de vista do outro. Saber ouvir é uma arte.
 - Pergutas e repostas simples são o caminho mais curto para a maioria dos problemas
   
-Princípios de Comunicação
+### Princípios de Comunicação
 
 1. Ouça
 2. Prepare-se
 3. Facilite
-4. Personalize
-5. 
+4. Personalize (chame pelo nome, pergunte o ponto de vista da pessoa)
+5. Documente
+6. Colabore (evite barreiras, reme na mesma direção de todos. Senso de comunidade)
+7. Foque (discuta APENAS aquilo que é importante para o projeto)
+8. Desenhe (clareza "quer que eu desenhe...?")
+9. Avance
+10. Negocie
+
+### Princípios de Planejamento (definição)
+
+1. Escopo (Documente!)
+2. Envolvidos (Traga todos para o projeto)
+3. Iteratividade (cenários mudam)
+4. Estimativas
+5. Riscos (mitigação e preparação)
+6. Realismo
+7. Detalhes
+8. Qualidade
+9. Mudanças (tecnológicas, sociais, humanas)
+10. Ajustes
+
+### Princípios de Modelagem (mapa da mina)
+
+1. Softwares (o modelo não é o objetivo, e sim o software)
+2. Objetividade (somente os requisitos do escopo)
+3. Simplicidade
+4. Alterações
+5. Propósito
+6. Adaptação
+7. Utilidade
+8. Representação (não existe perfeição)
+9. Correção
+10. Feedback
+
+### Princípios de Desenvolvimento
+
+> Cuidado para não criar soluções elegantes que resolvem o problema errado
+
+1. Compreensão
+2. Programação
+3. Restrição (se não foi pedido/planejado, não o faças)
+4. Lógica
+5. Documentação
+6. Layout (clean code)
+7. Revisão (idealmente, quem desenvolve não deve revisar e nem testar o código)
+8. Teste
+9. Entrega
+10. Suporte (recomendado incluir x horas de suporte no projeto)
+
+## Engenharia de Requisitos
+
+> Identifique os envolvidos (não é porque a pessoa disse que queria de determinado modo, que ela saiba o modo que ela quer)
+
+### Levantamento de requisitos
+
+O levantmento de requisitos combina:
+
+- Elementos de solução de problemas
+- Elaboração
+- Negociação
+- Especificação
+
+**Coleta Colaborativa de Requisitos**
+
+- Reuniões com a participação de todos os envolvidos
+- Estabelecer regras para a preparação e participação
+- É sugerida uma agenda formal para pontos importantes, mas não engessada ao ponto de bloquear o fluxo de ideias
+- Um facilitador dirige a renião
+- Documente as reuniões
+  
+**Quality Function Deployment**
+
+- Requisitos esperados podem estar implícitos no produto ou sistema podem ser tão básicos que às vezes o cliente nem os cita.
 
 
 ## Para saber mais
