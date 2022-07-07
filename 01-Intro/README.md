@@ -127,6 +127,13 @@ A tecnologia resolve um problema e cria mais alguns outros.
 - SPICE (ISO/IECD 15.504)
 - ISO 9007:2000
 
+### Modelos de Desenvolvimento de Software
+
+- Modelo Cascata
+  - [ ] Comunicação
+  - [ ] Planejamento
+  - [ ] Modelagem
+  - [ ] 
 
 
 ## Para saber mais
