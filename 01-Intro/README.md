@@ -1,3 +1,11 @@
+<p align="center">
+	  <a href='https://jonasaacampos.github.io/portfolio/'>
+      <img alt="Engenheiro de Machine Learning - Badge" src="https://img.shields.io/static/v1?color=red&label=Engenieer&message=Machine-Learning&style=for-the-badge&logo=ia"/>
+      </a>
+</p>
+
+<img alt="brain" src="img/brain.png" width=150 align=right>
+
 <h1>Engenharia de Software em Machine Learning</h1>
 
 
@@ -23,8 +31,11 @@
   - [Levantamento de requisitos](#levantamento-de-requisitos)
 - [Para saber mais](#para-saber-mais)
 - [Crédito das imagens](#crédito-das-imagens)
+- [Contato](#contato)
 
+---
 
+![](img/machine-learning.png)
 
 ## Introdução
 
@@ -365,5 +376,23 @@ O levantmento de requisitos combina:
 
 ## Crédito das imagens
  
+ - Gordon Johnson, in Pixabay. Originais: [Aqui](https://pixabay.com/pt/vectors/c%c3%a9rebro-computador-a-eu-ai-3199838/) e [Aqui](https://pixabay.com/pt/vectors/a-eu-ai-anatomia-2729781/).
  - Machine Learning Lifecycle, by Ramjee Ganti, dblue Inc.
  - Goring, Markus & Fay, Alexander. (2013). Method for the analysis of temporal change of physical structure in the instrumentation and control life-cycle. Nuclear Engineering and Technology. 45. 10.5516/NET.04.2013.010.
+
+---
+<!-- CONTACT -->
+## Contato
+
+**Author:** Jonas Araujo de Avila Campos
+
+**Confira mais projetos: [AQUI](https://jonasaacampos.github.io/portfolio/)**
+
+<p align='center'>
+  <a href='https://github.com/jonasaacampos'>
+    <img src='https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white'/>
+  </a>
+  <a href='https://www.linkedin.com/in/jonasaacampos/'>
+    <img src='https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white'/>
+  </a>
+</p>
