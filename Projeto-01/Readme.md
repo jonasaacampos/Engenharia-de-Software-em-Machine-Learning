@@ -57,7 +57,50 @@ MVP - Possibilidade de:
 
 ![](img/diagrama-de-classes.png)
 
-## Configurando o banco de dados
+## Criando e configurando ambiente/infraestrutura
 
-- [Instalando o Docker](https://www.docker.com/get-started/)
-- 
+- [Instalar o Docker](https://www.docker.com/get-started/)
+- [Instalar a imagem do Postgres](https://hub.docker.com/_/postgres)
+- Iniciar o container do Porsgres
+  - `docker run --name dbapp -e POSTGRES_PASSWORD=123@Mudar -d -p 5432:5432 postgres`
+- Verificar se container foi inicializado corretamente
+  - `docker ps`
+- Para para inciar o container
+  - `docker stop dbapp`
+  - `docker start dbapp`
+- [Instalar o pgAdmin](https://www.pgadmin.org/download/)
+- Configurar senha master e o acesso ao servidor
+  - Servers > Create > Server
+  - General > Name: Local
+  - Connection > Hostname: localhost
+  - Inserir e salvar a senha
+- Criar o banco de dados
+  - Databases > Create > Database
+  ```
+  CREATE DATABASE dbapp
+    WITH
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    CONNECTION LIMIT = -1
+    IS_TEMPLATE = False;
+  ```
+### Configurando banco de dados
+
+**Boas Práticas:**
+
+- NÃO USE A TABELA postgres, crie uma nova
+- NÃO USE o Schema public, crie um novo
+
+1. Crie o um novo Schema com o nome de webuser
+2. Crie as tabelas dentro do Schema via interface Gráfica ou via Query Toll (scrip para criação [aqui](database/tabelas_academia.sql)).
+
+### Carregar massa de dados para teste
+
+Utilizar os dados de teste disponível [aqui](jonasaacampos/Engenharia-de-Software-em-Machine-Learning/Projeto-01/database/test-data).
+
+### Criar conexão e conectores com o banco de dados
+
+- [Executor](database/run_sql.py)
+- [Conectores](database/conectores)
+
+> Os conectores não foram inseridos dentro das classes para facilitar futuras manuteções e reuso dos conectores em outras aplicações.
