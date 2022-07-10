@@ -6,7 +6,7 @@
 
 <img alt="brain" src="img/brain.png" width=150 align=right>
 
-<h1>Engenharia de Software em Machine Learning</h1>
+<h1>Fundamentos de Engenharia de Software</h1>
 
 
 - [Introdução](#introdução)
