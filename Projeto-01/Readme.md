@@ -104,3 +104,7 @@ Utilizar os dados de teste disponível [aqui](jonasaacampos/Engenharia-de-Softwa
 - [Conectores](database/conectores)
 
 > Os conectores não foram inseridos dentro das classes para facilitar futuras manuteções e reuso dos conectores em outras aplicações.
+
+## Deploy
+
+`flask run`
