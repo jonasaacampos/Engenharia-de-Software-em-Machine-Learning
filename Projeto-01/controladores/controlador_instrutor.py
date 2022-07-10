@@ -6,6 +6,7 @@ from flask import Blueprint
 from classes.instrutor import Instrutor
 import conectores.conector_instrutor as conector_instrutor
 
+
 # Cria o blueprint (instância da classe)
 instrutores_blueprint = Blueprint("instrutores", __name__)
 
@@ -15,6 +16,7 @@ instrutores_blueprint = Blueprint("instrutores", __name__)
 def instrutores_index():
     instrutores = conector_instrutor.get_all()
     return render_template("instrutores/index.html", instrutores = instrutores, title = "Instrutores")
+
 
 # Rota para a página de cadastro de instrutor
 @instrutores_blueprint.route("/instrutores/novo")
