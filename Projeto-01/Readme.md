@@ -33,6 +33,7 @@ Aplicação web para gerência de academia desenvolvido como requisito para obte
   - [Criar conexão e conectores com o banco de dados](#criar-conexão-e-conectores-com-o-banco-de-dados)
 - [Deploy](#deploy)
 - [To do ☑️](#to-do-️)
+- [Crédito das imagens](#crédito-das-imagens)
 - [Contato](#contato)
 
 ## Softwares utilizados
@@ -155,6 +156,12 @@ Utilizar os dados de teste disponível [aqui](jonasaacampos/Engenharia-de-Softwa
 - [ ] Rodar script de limpeza de banco de dados `database > test-data > clean-data.sql`
 
 ---
+
+## Crédito das imagens
+
+- Gym Icons, in [Flaticon](https://www.flaticon.com/free-icons/gym)
+
+
 <!-- CONTACT -->
 ## Contato
 
