@@ -14,4 +14,4 @@ Anotações e projetos do curso de formação em Engenharia de Machine Learning.
 
 - [x] [Fundamentos de Engenharia de Software](01-Intro)
   - [x] [Projeto 01 - Web App Completa](Projeto-01)
-  - [ ] [Projeto 02 - Aplicação Móvel Completa](#)
+  - [x] [Projeto 02 - Aplicação Móvel Completa](#)
