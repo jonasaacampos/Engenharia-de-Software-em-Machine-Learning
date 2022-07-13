@@ -6,7 +6,8 @@
 
 <img alt="brain" src="01-Intro/img/brain.png" width=150 align=right>
 
-<h1>Formação Engenheiro de Machine Learning</h1>
+<h1>Fundamentos de Engenharia de Software</h1>
+
 
 Anotações e projetos do curso de formação em Engenharia de Machine Learning.
 
