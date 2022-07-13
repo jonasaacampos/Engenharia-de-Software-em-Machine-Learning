@@ -14,7 +14,7 @@
 ![](https://img.shields.io/badge/Database-PostgreSQL-informational?style=flat&logo=PostgreSQL&logoColor=white&color=blue)
 ![](https://img.shields.io/badge/Container-Docker-informational?style=flat&logo=Docker&logoColor=white&color=blue)
 
-Aplicação web para gerência de academia desenvolvido como requisito para obtenção do título de Engenheiro de dados da DS Academy.
+Aplicação web para gerência de academia desenvolvido como requisito para obtenção do título de Engenheiro de Machine Learning da Data Science Academy.
 
 [![](https://img.shields.io/badge/feito%20com%20%E2%9D%A4%20por-jaac-cyan)](https://jonasaacampos.github.io/portfolio/)
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Profile-informational?style=flat&logo=linkedin&logoColor=white&color=0D76A8)](https://www.linkedin.com/in/jonasaacampos)
